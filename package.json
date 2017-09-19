@@ -1,0 +1,17 @@
+{
+  "name": "phazer_snake",
+  "version": "1.0.0",
+  "description": "a snake game done in phaser for education porpouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Schuaste Cavalheiro [ivanscavalheiro@gmail.com]",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-serve": "^1.4.0"
+  }
+}
