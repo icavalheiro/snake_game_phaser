@@ -29,6 +29,12 @@ module.exports = function(graphics, gridSize, width, height){
 	this.width = width;
 	this.height = height;
 	this.columnsCount = function(){
-		return Math.floor(height/gridSize);
+		return Math.floor(width/gridSize);
 	}
+
+	this.linesCount = function(){
+		return Math.floor(height/gridSize);
+	};
+
+	this.tiles = tiles;
 }
